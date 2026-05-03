@@ -1,4 +1,19 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "nxCloudId": "69f76d18474942075257bdcd"
+  "nxCloudId": "69f76d18474942075257bdcd",
+  "analytics": false,
+  "targetDefaults": {
+    "@nx/esbuild:esbuild": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": [
+        "default",
+        "^default",
+        {
+          "json": "{workspaceRoot}/tsconfig.json",
+          "fields": ["extends", "files", "include"]
+        }
+      ]
+    }
+  }
 }
