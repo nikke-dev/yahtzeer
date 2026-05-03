@@ -1,0 +1,106 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.7.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package-lock.json",
+        "hash": "4795504027788905981"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "package.json",
+        "hash": "9419457235683923485"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "3385014866466956207"
+      },
+      {
+        "file": "dist/apps/backend/package.json",
+        "hash": "12736313457586635977"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17574188164780222032"
+      },
+      {
+        "file": "tmp/apps/backend/build/tsconfig.generated.5a40a0e7-2cf8-4748-9b26-7effc9aa2865.json",
+        "hash": "9389007082972287974"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "3091359258626460534"
+      },
+      {
+        "file": "tmp/backend/main-with-require-overrides.js",
+        "hash": "5632968825117400376"
+      }
+    ],
+    "projectFileMap": {
+      "backend": [
+        {
+          "file": "apps/backend/project.json",
+          "hash": "12594437656714533155"
+        },
+        {
+          "file": "apps/backend/src/app/app.ts",
+          "hash": "14518793766668130454",
+          "deps": [
+            "npm:fastify",
+            "npm:@fastify/autoload"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/plugins/sensible.ts",
+          "hash": "491110684765192562",
+          "deps": [
+            "npm:fastify",
+            "npm:fastify-plugin",
+            "npm:@fastify/sensible"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app/routes/root.ts",
+          "hash": "6302922743040805551",
+          "deps": [
+            "npm:fastify"
+          ]
+        },
+        {
+          "file": "apps/backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "9948176977153651920",
+          "deps": [
+            "npm:fastify"
+          ]
+        },
+        {
+          "file": "apps/backend/tsconfig.app.json",
+          "hash": "663763413802756907"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "3025378044812449119"
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "875749881598106370"
+}

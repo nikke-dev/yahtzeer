@@ -1,0 +1,36 @@
+> nx run backend:serve:development
+
+[36m⠋[39m [2K[1G[36m⠙[39m [2K[1G[36m⠹[39m Creating project graph nodes with 2 plugins
+  - nx/js/dependencies-and-lockfile
+  - nx/core/package-json[2K[1G[1A[2K[1G[1A[2K[1G[36m⠸[39m Creating project graph nodes with 2 plugins
+  - nx/js/dependencies-and-lockfile
+  - nx/core/package-json[2K[1G[1A[2K[1G[1A[2K[1G[36m⠼[39m [2K[1G[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/1a5d5a2b-8193-4a59-8752-91e0ff7f4c3c
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+{"level":30,"time":1777824391738,"pid":22125,"hostname":"nikke-HP-ProBook-430-G5","msg":"Server listening at http://127.0.0.1:3000"}
+[ ready ] http://localhost:3000
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/0e0c458f-1b6d-44b9-94ed-db4ff98eee21
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+{"level":30,"time":1777824662652,"pid":25143,"hostname":"nikke-HP-ProBook-430-G5","msg":"Server listening at http://127.0.0.1:3000"}
+[ ready ] http://localhost:3000
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/75411b37-ce7f-4853-ba8d-52be2b6072fd
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+{"level":30,"time":1777824679397,"pid":25352,"hostname":"nikke-HP-ProBook-430-G5","msg":"Server listening at http://127.0.0.1:3000"}
+[ ready ] http://localhost:3000
+[31m[1merror[22m[39m [90mTS5095[39m: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.
+
+
+Found 1 error.
+[ [31mwatch[39m ] build finished with errors (see above), watching for changes...
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+[ [32mwatch[39m ] build succeeded, watching for changes...
+[1m[31mDebugger listening on ws://localhost:9229/e3b5d2f1-0a3f-44dc-bf2d-f1e99d6dfef4
+For help, see: https://nodejs.org/en/docs/inspector
+[39m[22m
+{"level":30,"time":1777824704455,"pid":25734,"hostname":"nikke-HP-ProBook-430-G5","msg":"Server listening at http://127.0.0.1:3000"}
+[ ready ] http://localhost:3000
